@@ -1,0 +1,101 @@
+/* ––
+ * –––– Fonts declaration
+ * –––––––––––––––––––––––––––––––––– */
+/* Montserrat Black */
+@font-face {
+  font-family: 'MontserratBlack';
+  font-style: normal;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+    url('assets/fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+}
+/* Montserrat Bold */
+@font-face {
+  font-family: 'MontserratBold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+/* Montserrat ExtraBold */
+@font-face {
+  font-family: 'MontserratExtraBold';
+  font-style: normal;
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+    url('assets/fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+}
+/* Montserrat ExtraLight */
+@font-face {
+  font-family: 'MontserratExtraLight';
+  font-style: normal;
+  src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'),
+    url('assets/fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+}
+/* Montserrat Light */
+@font-face {
+  font-family: 'MontserratLight';
+  font-style: normal;
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+    url('assets/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+}
+/* Montserrat Medium */
+@font-face {
+  font-family: 'MontserratMedium';
+  font-style: normal;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+    url('assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+/* Montserrat Regular */
+@font-face {
+  font-family: 'MontserratRegular';
+  font-style: normal;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+/* Montserrat SemiBold */
+@font-face {
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+    url('assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+/* Montserrat Thin */
+@font-face {
+  font-family: 'MontserratThin';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Montserrat Thin'), local('Montserrat-Thin'),
+    url('assets/fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+}
+
+.slick-initialized .slick-slide {
+  width: 210px !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded {
+  background-color: #171c27;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root {
+  background-color: #121721;
+}
+
+.MuiButtonBase-root.MuiIconButton-root .MuiSvgIcon-root {
+  color: rgba(255, 255, 255, 0.56);
+}
+.MuiButtonBase-root.MuiIconButton-root span {
+  color: white;
+}
+.css-tish3i-MuiPaper-root-MuiSnackbarContent-root {
+  color: #5ACBB7!important;
+  border: 1px solid #5ACBB7!important;
+  box-sizing: border-box!important;
+  border-radius: 4px!important;
+  background-color: #364A6E!important;
+}
+.css-tish3i-MuiPaper-root-MuiSnackbarContent-root {
+  color: #5ACBB7!important;
+  border: 1px solid #5ACBB7!important;
+  box-sizing: border-box!important;
+  border-radius: 4px!important;
+  background-color: #364A6E!important;
+}

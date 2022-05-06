@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier", "react", "simple-import-sort"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "max-lines": "warn",
+    "no-console": "warn",
+    "prettier/prettier": "error",
+    "@typescript-eslint/ban-types": 1,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-empty-function": 1,
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
+}

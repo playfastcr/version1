@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strictNullChecks": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    // "jsxImportSource": "@emotion/react",
+    "baseUrl": ".",
+    "paths": {
+      "@initializer/*": ["src/initializers/*"],
+      "@context/*": ["src/context/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@component/*": ["src/components/*"],
+      "@service": ["src/services"],
+      "@service/*": ["src/services/*"],
+
+      // modules definition
+      "@playfast/app/auth/*": ["src/modules/auth/*"],
+      "@playfast/app/challenges/*": ["src/modules/challenges/*"],
+      "@playfast/app/games/*": ["src/modules/games/*"],
+      "@playfast/app/home/*": ["src/modules/home/*"],
+      "@playfast/app/user/*": ["src/modules/user/*"],
+      "@playfast/app/wallet/*": ["src/modules/wallet/*"],
+      "@playfast/app/shared/*": ["src/modules/shared/*"],
+      "@playfast/assets/*": ["src/assets/*"]
+    }
+  },
+  "include": ["environment/env.d.ts", "./src"]
+}
