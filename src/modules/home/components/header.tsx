@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <>
       <ResponsiveAppBar></ResponsiveAppBar>
-      <BannerTitle title="CREÁ TUS PROPIOS" description="RETOS" image={Banner}></BannerTitle>
+      <BannerTitle title="Ganá con tus habilidades" description="" image={Banner}></BannerTitle>
     </>
   );
 };
